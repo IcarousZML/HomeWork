@@ -1,0 +1,32 @@
+选择题
+1、B
+2、B
+3、ABD
+4、A
+	A:每次改变都会在内存中开辟新的空间，不会影响到原有字符串
+	B&C:String字符串只要改变就会在内存中重新new一个空间，所以他的效率是不如StringBuffer、StringBuilder的
+	D:StringBuffer位于java.lang包中
+5、B
+	B:无符号右移，参数类型是int
+	D:String trim();返回一个字符串并删除前后空格
+6、A
+	在输出中int值若在字符串右侧则会被作为字符串进行拼接
+7、CD
+	A:类型不匹配，128不是byte类型的值
+	B:boolean值只有true和false，缺省值为false
+8、A
+9、BCD
+	==比较的是对象，
+	equals本质上和==作用相同，在字符串中被重写了，先比较对象，再比较字符串的值
+10、C
+11、C
+12、A
+	全局变量才有默认值，且方法的调用必须写在大括号中
+简答题
+1、12 -12
+	Math.round(double/float);为计算一个浮点数的四舍五入值
+2、Integer是引用类型，是int的包装类，默认值为null
+	int是基本类型，默认值为0.
+3、不能。String类是final修饰的，final修饰的类不能被继承。
+程序设计
+1、项目位置：/HomeWork/src/xuetang9/L1v4/ninth/Demo1/
